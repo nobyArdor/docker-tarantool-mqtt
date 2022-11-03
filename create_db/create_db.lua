@@ -50,7 +50,7 @@ end
  print_state()
 s:insert{nil, 1, 6953, 14924076.1263006}
 print_state()
---s:truncate()
+s:truncate()
 --print_state()
 box.snapshot()
 os.exit(true, true)
